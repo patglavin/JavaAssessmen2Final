@@ -7,5 +7,18 @@ public class WuTangConcatenator{
         this.input = input;
     }
 
-//    public boolean isWu
+    public boolean isWu(){
+        if (input % 3 == 0) return true;
+        return false;
+    }
+
+    public boolean isTang(){
+        if (input % 5 == 0) return true;
+        return false;
+    }
+
+    public boolean isWuTang(){
+        if (input % 3 == 0 && input % 5 == 0) return true;
+        return false;
+    }
 }
