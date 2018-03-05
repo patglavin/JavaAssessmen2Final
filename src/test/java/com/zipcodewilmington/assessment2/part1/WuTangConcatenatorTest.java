@@ -60,8 +60,8 @@ public class WuTangConcatenatorTest {
         boolean isTang = wtc.isTang();
         boolean isWuTang = wtc.isWuTang();
 
-        Assert.assertFalse(isWu); // multiple of 3
-        Assert.assertTrue(isTang); // multiple of 5
+        Assert.assertTrue(isWu); // multiple of 3
+        Assert.assertFalse(isTang); // multiple of 5
         Assert.assertFalse(isWuTang); // multiple of 15
     }
 
